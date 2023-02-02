@@ -11,10 +11,10 @@ def conexao():
     sleep(1)
 
     def preencher_formulario():
-        driver.find_element(By.ID, '3').send_keys('wkerber')
+        driver.find_element(By.ID, '3').send_keys('*****')
         sleep(1)
 
-        driver.find_element(By.ID, '5').send_keys('unKBgUo3')
+        driver.find_element(By.ID, '5').send_keys('******')
         sleep(1)
 
         submit_button = driver.find_element(By.ID, '4')
